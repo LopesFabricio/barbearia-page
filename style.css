@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+header{
+    background-color: #8B4513;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    
+}
+
+
+section{
+        max-width: 960px;
+        margin: auto;
+        padding: 20px;
+        background-image: url(./imagens/pexels-nick-demou-1319459.jpg);
+        background-size: cover;
+        overflow: hidden;
+        
+    
+        
+    }
+    
+
+
+
+.formContainer{
+    
+    max-width: 230px;
+    float: right;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    margin: 20px;
+    
+    
+    
+}
+
+h2{
+    font-size: 20px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+.picture{
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+.picture2{
+    
+    max-width: 50px;
+    
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+    max-width: 920px;
+    margin: auto;
+}
+
+.description{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 260px;
+    margin-left: 40px;
+}
+
+.description h3, .description p{
+    margin-bottom: 20px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.link:visited{
+    color: white;
+}
+
+
+
+
+
+
